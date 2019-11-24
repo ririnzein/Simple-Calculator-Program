@@ -9,8 +9,8 @@ int main()
     printf ("2. Nasi Goreng\n");
     printf ("3. Bubur Ayam\n");
     printf ("4. Sate Ayam\n");
-    prin ("pilihan");
-    scanf("%d", &pilihan);
+    printf ("pilihan");
+    scanf("%s", &pilihan);
 
     //akan tampil ilihan user
     switch(pilihan)
